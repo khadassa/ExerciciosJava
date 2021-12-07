@@ -1,15 +1,14 @@
 package com.aula3.exerciciosClass;
 
-import java.util.Scanner;
+import static com.aula3.exerciciosClass.Leitor.leitorInt;
 
 public class Calculadora {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
 
         System.out.println("digite dois números:");
 
-        int num1 = scanner.nextInt();
-        int num2 = scanner.nextInt();
+        int num1 = leitorInt();
+        int num2 = leitorInt();
 
         int sum = num1 + num2;
         int sub = num1 - num2;

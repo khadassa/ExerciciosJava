@@ -1,9 +1,9 @@
-package com.exerciciosClass02.numbers;
+package com.exerciciosClass02.ex04;
 
 import java.util.List;
 
-import static com.exerciciosClass02.numbers.ReadNumbers.getAverage;
-import static com.exerciciosClass02.numbers.ReadNumbers.readNumbers;
+import static com.exerciciosClass02.ReadNumbers.getAverage;
+import static com.exerciciosClass02.ReadNumbers.readNumbers;
 
 public class OrderedNumbers {
 

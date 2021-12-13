@@ -1,4 +1,4 @@
-package com.exerciciosClass02.numbers;
+package com.exerciciosClass02.ex03;
 
 import java.util.ArrayList;
 import java.util.Scanner;

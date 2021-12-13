@@ -1,4 +1,4 @@
-package com.exerciciosClass02.words;
+package com.exerciciosClass02.ex06;
 
 import com.exerciciosClass02.Reader;
 

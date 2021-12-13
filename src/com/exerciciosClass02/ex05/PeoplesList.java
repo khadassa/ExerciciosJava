@@ -1,4 +1,6 @@
-package com.exerciciosClass02.words;
+package com.exerciciosClass02.ex05;
+
+import com.exerciciosClass02.ListItens;
 
 import java.util.Comparator;
 import java.util.List;

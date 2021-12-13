@@ -1,4 +1,6 @@
-package com.exerciciosClass02.words;
+package com.exerciciosClass02.ex01;
+
+import com.exerciciosClass02.ListItens;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,6 @@
-package com.exerciciosClass02.numbers;
+package com.exerciciosClass02.ex07;
+
+import com.exerciciosClass02.ReadNumbers;
 
 import java.util.ArrayList;
 import java.util.List;

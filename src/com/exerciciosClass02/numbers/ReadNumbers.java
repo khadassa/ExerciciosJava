@@ -16,15 +16,19 @@ public class ReadNumbers {
             int number = scanner.nextInt();
             numbers.add(number);
         }
-        return numbers.stream().sorted().collect(Collectors.toList());
+        return sortList(numbers);
     }
 
-    public static double getAverage(List<Integer> numbers) {
+    public static List<Integer> sortList(List<Integer> integers) {
+        return integers.stream().sorted().collect(Collectors.toList());
+    }
+
+    public static double getAverage(List<Integer> integers) {
         double average = 0.0;
-        for (int number : numbers) {
+        for (int number : integers) {
             average += number;
         }
-        average /= numbers.size();
+        average /= integers.size();
         return average;
     }
 }
